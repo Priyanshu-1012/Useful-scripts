@@ -24,6 +24,5 @@ while True:
         
     sleep(60)
 ```
-make shortcut...and paste the shortcut in startup folder usually its 
-```C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` 
+make shortcut...and paste the shortcut in startup folder usually its                                   ```C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` 
 then go to its property and in Target field type *pythonw.exe* before the path of the script. 
