@@ -2,9 +2,8 @@
 python scripts I use to make my life easier
 
 ## 1. Battery Percentage Notification 
-I was unable to find this feature on windows...stop charging at 80% to maintain battery health or atleast notify me when battery percentage reach to 80%. So here's a simple script for to notify me when it reach up to 80%.
-make sure u got psutil, win10toast modules...to install it type...   
-```pip install psutil win10toast``` on elevated cmd.
+I was unable to find this feature on my windows laptop...stop charging at 80% to maintain battery health or atleast notify me when battery percentage reach to 80%. So here's a simple script to notify me when it reach up to 80%.
+make sure u got psutil, win10toast modules...to install it type... ```pip install psutil win10toast``` on elevated cmd.
 
 ```python
 
@@ -24,6 +23,5 @@ while True:
         
     sleep(60)
 ```
-make shortcut...and paste the shortcut in startup folder usually its 
-```C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` 
+make shortcut for the .py file... and paste the shortcut in startup folder usually its                                   ```C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup``` 
 then go to its property and in Target field type *pythonw.exe* before the path of the script. 
