@@ -28,8 +28,7 @@ then go to its property and in Target field type *pythonw.exe* before the path o
 
 
 ## 2. CPU Temperature 
-This script will display CPU temperature in °C as a notification
-make sure u got psutil, win10toast modules..
+Just a simple script that displays CPU temperature in °C as a notification.
 
 ```python
 import ctypes
