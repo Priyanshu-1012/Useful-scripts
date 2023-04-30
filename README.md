@@ -47,8 +47,10 @@ temp_str = output.decode().strip().split('=')[1]
 temp_int = int(temp_str)
 
 temp_celsius = round((temp_int / 10) - 273.15, 2)
+# temp_fahren= round(((temp_int / 10) - 273.15)*9/5+32, 2)  #if you wanna use °F uncomment this line and comment out the above line
+
 
 toaster = ToastNotifier()
-toaster.show_toast("Temperature", f"{temp_celsius} °C", duration=3)
+toaster.show_toast("Temperature", f"{temp_celsius} °C", duration=3) 
+# toaster.show_toast("Temperature", f"{temp_fahren} °F", duration=3)  #if you wanna use °F uncomment this line and comment out the above line
 
-```
