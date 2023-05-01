@@ -53,6 +53,7 @@ temp_celsius = round((temp_int / 10) - 273.15, 2)
 toaster = ToastNotifier()
 toaster.show_toast("Temperature", f"{temp_celsius} °C", duration=3) 
 # toaster.show_toast("Temperature", f"{temp_fahren} °F", duration=3)  #if you wanna use °F uncomment this line and comment out the above line
+```
 
 ## 3. Automatic Google Meet
 This script launches instant google meet , copies the link to clipboard, and then opens Whatsapp...you know..to share the link
