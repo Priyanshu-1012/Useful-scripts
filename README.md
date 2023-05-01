@@ -67,7 +67,7 @@ import time
 import pyautogui
 
 wapp_path="C:\\WhatsApp - Shortcut.lnk"  #change Whatsapp path according to your system
-os.startfile("msedge.exe")
+os.startfile("msedge.exe")               #this one too
 time.sleep(0.5)
 pyautogui.typewrite("https://meet.google.com/")
 time.sleep(0.05)
