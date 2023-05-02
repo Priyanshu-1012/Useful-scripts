@@ -1,5 +1,7 @@
 # Useful-scripts
-python scripts I use to make my life easier
+python scripts I use to make my life easier :pinched_fingers:
+
+if you have any suggestions...feel free to reach me!
 
 ## 1. Battery Percentage Notification 
 I was unable to find this feature on my windows laptop...stop charging at 80% to maintain battery health or atleast notify me when battery percentage reach to 80%. So here's a simple script to notify me when it reach up to 80%.
@@ -56,7 +58,7 @@ toaster.show_toast("Temperature", f"{temp_celsius} °C", duration=3)
 ```
 
 ## 3. Automatic Google Meet
-This script launches instant google meet , copies the link to clipboard, and then opens Whatsapp...you know..to share the link
+This script launches instant google meet , copies the link to clipboard, and then opens Whatsapp....(you know..to share the link)
 
 Dependencies: ```pyautogui``` to install just type ```pip install pyautogui``` on yout terminal.
 
