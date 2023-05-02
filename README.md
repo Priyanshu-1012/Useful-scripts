@@ -86,3 +86,36 @@ pyautogui.press('space')
 
 os.startfile(wapp_path)
 ```
+
+## 4. Open a file or folder in VS code with a custom shortcut key
+
+Here's  a python script that opens any file/folder in VS Code...i know its not the best..but it works for me...and its just a handy shortcut that i use a lot.
+
+_Note:  **1.** I assigned the hotkey as ```Alt+V``` ..u may change it to your liking_
+
+ 
+_**2.** I use the classic context menu and not the new win11 one...it wont work on the win 11 one._
+
+```python
+
+import keyboard
+import pyautogui
+import time
+import pyperclip
+import os
+
+def on_sel():
+    time.sleep(0.5)
+    pyautogui.rightClick()
+    time.sleep(0.5)
+    keyboard.press('a')
+    keyboard.release('a')
+    time.sleep(0.5)
+    clipboard_value = pyperclip.paste()
+    os.system(f'cmd /c "code {clipboard_value}"')
+
+# add hotkey listener for Alt+V
+keyboard.add_hotkey('alt+v', on_sel)
+
+keyboard.wait()
+```
