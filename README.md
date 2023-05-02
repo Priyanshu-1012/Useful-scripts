@@ -98,6 +98,8 @@ _Note:  **1.** I assigned the hotkey as ```Alt+V``` ..u may change it to your li
  
 _**2.** I use the classic context menu and not the new win11 one...it wont work on the win 11 one._
 
+![cmenu](https://user-images.githubusercontent.com/39450902/235765681-2ade4679-6ede-4d25-b457-8c514327a582.png)
+
 ```python
 
 import keyboard
