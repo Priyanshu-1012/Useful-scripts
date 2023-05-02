@@ -1,5 +1,6 @@
 # Useful-scripts
 python scripts I use to make my life easier :pinched_fingers:
+
 if you have any suggestions...feel free to reach me!
 
 ## 1. Battery Percentage Notification 
