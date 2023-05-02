@@ -1,5 +1,5 @@
 # Useful-scripts
-python scripts I use to make my life easier
+python scripts I use to make my life easier :pinched_fingers
 
 ## 1. Battery Percentage Notification 
 I was unable to find this feature on my windows laptop...stop charging at 80% to maintain battery health or atleast notify me when battery percentage reach to 80%. So here's a simple script to notify me when it reach up to 80%.
