@@ -57,39 +57,7 @@ toaster.show_toast("Temperature", f"{temp_celsius} °C", duration=3)
 # toaster.show_toast("Temperature", f"{temp_fahren} °F", duration=3)  #if you wanna use °F uncomment this line and comment out the above line
 ```
 
-## 3. Automatic Google Meet
-This script launches instant google meet , copies the link to clipboard, and then opens Whatsapp....(you know..to share the link)
-
-Dependencies: ```pyautogui``` to install just type ```pip install pyautogui``` on yout terminal.
-
-```python
-
-import os
-import time
-import pyautogui
-
-wapp_path="C:\\WhatsApp - Shortcut.lnk"  #change Whatsapp path according to your system
-os.startfile("msedge.exe")               #this one too
-time.sleep(0.5)
-pyautogui.typewrite("https://meet.google.com/")
-time.sleep(0.05)
-pyautogui.press('enter')
-time.sleep(5)
-pyautogui.press('space')
-time.sleep(0.5)
-pyautogui.press('down')
-time.sleep(0.5)
-pyautogui.press('space')
-time.sleep(8)
-for i in range(20):
-    pyautogui.press('tab')
-    time.sleep(0.01)
-pyautogui.press('space')
-
-os.startfile(wapp_path)
-```
-
-## 4. Open a file or folder in VS code with a custom shortcut key
+## 3. Open a file or folder in VS code with a custom shortcut key
 
 Here's  a python script that opens any file/folder in VS Code...i know its not the best..but it works for me...and its just a handy shortcut that i use a lot.
 
@@ -124,7 +92,7 @@ keyboard.add_hotkey('alt+v', on_sel)
 keyboard.wait()
 ```
 
-## 5. Images to PDF 
+## 4. Images to PDF 
 
 A simple yet very necessary images to a pdf script...
 multiple images(images folder) --> a single combined pdf(pdf folder).
